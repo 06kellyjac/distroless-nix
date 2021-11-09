@@ -1,0 +1,57 @@
+{
+  "nodes": {
+    "distroless": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635513346,
+        "narHash": "sha256-Qs0m7+76642b/zZR0egLrDyZP80ywR/cjTnJvQBdr2o=",
+        "owner": "GoogleContainerTools",
+        "repo": "distroless",
+        "rev": "3d9d96688716c922c7fe727b457d3d402eb4b1c4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "GoogleContainerTools",
+        "repo": "distroless",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1634851050,
+        "narHash": "sha256-N83GlSGPJJdcqhUxSCS/WwW5pksYf3VP1M13cDRTSVA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c91f3de5adaf1de973b797ef7485e441a65b8935",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1634782485,
+        "narHash": "sha256-psfh4OQSokGXG0lpq3zKFbhOo3QfoeudRcaUnwMRkQo=",
+        "path": "/nix/store/p53cz6rh27q40g9i0q98k3vfrz6lm12w-source",
+        "rev": "34ad3ffe08adfca17fcb4e4a47bb5f3b113687be",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "distroless": "distroless",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
